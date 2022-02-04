@@ -3,10 +3,7 @@ import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
-import Button from "@mui/material/Button";
 import IconButton from "@mui/material/IconButton";
-import MenuIcon from "@mui/icons-material/Menu";
-import { Link } from "react-router-dom";
 
 import LightModeIcon from "@mui/icons-material/LightMode";
 import DarkModeIcon from "@mui/icons-material/DarkMode";
@@ -23,7 +20,7 @@ export const AppBarCustom = () => {
   return (
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="fixed">
-        <Toolbar>
+        <Toolbar sx={{ justifyContent: "space-between" }}>
           {/* <IconButton
             size="large"
             edge="start"
@@ -37,11 +34,21 @@ export const AppBarCustom = () => {
             Asis Melgarejo
           </Typography>
           <Box className={styles.Links}>
-            <Link to="/" className={styles.Link}>
+            <a href="#home" className={styles.Link}>
               <Typography variant="h6" component="span">
                 Inicio
               </Typography>
-            </Link>
+            </a>
+            <a href="#work" className={styles.Link}>
+              <Typography variant="h6" component="span">
+                Mis trabajos
+              </Typography>
+            </a>
+            <a href="#skills" className={styles.Link}>
+              <Typography variant="h6" component="span">
+                Habilidades
+              </Typography>
+            </a>
           </Box>
           <IconButton onClick={handleDarkTheme}>
             {darkTheme ? <LightModeIcon /> : <DarkModeIcon />}

@@ -6,7 +6,6 @@ import CardMedia from "@mui/material/CardMedia";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import Chip from "@mui/material/Chip";
-import Stack from "@mui/material/Stack";
 import styles from "./CustomCard.module.sass";
 
 interface ITag {

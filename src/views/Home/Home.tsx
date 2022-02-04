@@ -1,11 +1,9 @@
 import React, { useRef } from "react";
 import { Layout } from "../../components/Layout";
-import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import Paper from "@mui/material/Paper";
-import { CardActionArea } from "@mui/material";
 import { CustomCard } from "../../components/CustomCard";
 import { $SKILLS } from "./Skills";
 import MainImage from "./main_img1.jpg";
@@ -18,7 +16,7 @@ import styles from "./Home.module.sass";
 
 export const CardHome = () => {
   return (
-    <Paper className={styles.CardHome}>
+    <Paper className={styles.CardHome} id="home">
       <CardMedia
         component="img"
         height="500"
@@ -91,6 +89,7 @@ export const Home = () => {
           component={"div"}
           color="text.secondary"
           align="center"
+          id="work"
         >
           Conoce algunos de mis trabajos
         </Typography>
@@ -103,7 +102,7 @@ export const Home = () => {
         </div>
         <DialogImage ref={dialogImageRef} />
       </section>
-      <section className={styles.HomeSection}>
+      <section className={styles.HomeSection} id="skills">
         <Typography
           variant="h4"
           component={"div"}
