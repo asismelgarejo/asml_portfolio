@@ -1,0 +1,55 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@assets/*": [
+        "src/assets/*"
+      ],
+      "@components/*": [
+        "src/components/*"
+      ],
+      "@layout/*": [
+        "src/layout/*"
+      ],
+      "@sections/*": [
+        "src/sections/*"
+      ],
+      "@context/*": [
+        "src/context/*"
+      ],
+      "@interfaces/*": [
+        "src/interfaces/*"
+      ],
+      "@routes/*": [
+        "src/routes/*"
+      ],
+      "@constants/*": [
+        "src/toolbox/constants/*"
+      ],
+      "@defaults/*": [
+        "src/toolbox/defaults/*"
+      ],
+      "@enums/*": [
+        "src/toolbox/enums/*"
+      ],
+      "@helpers/*": [
+        "src/toolbox/helpers/*"
+      ],
+      "@hooks/*": [
+        "src/toolbox/hooks/*"
+      ],
+      "@styles/*": [
+        "src/toolbox/styles/*"
+      ],
+      "@utils/*": [
+        "src/toolbox/utils/*"
+      ],
+      "@toolbox/*": [
+        "src/toolbox/*"
+      ],
+      "@src/*": [
+        "src/*"
+      ],
+    }
+  }
+}
