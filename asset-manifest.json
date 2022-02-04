@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/asml_portfolio/static/css/main.bdb02b23.css",
+    "main.js": "/asml_portfolio/static/js/main.e2290379.js",
+    "static/media/main_img1.jpg": "/asml_portfolio/static/media/main_img1.ab46070cd3df108e48ca.jpg",
+    "static/media/cms_formdata.png": "/asml_portfolio/static/media/cms_formdata.580482a8e68192e2aadc.png",
+    "static/media/gitlab.svg": "/asml_portfolio/static/media/gitlab.640338841d983271520aa06b42a764e8.svg",
+    "static/media/twitter_icon.svg": "/asml_portfolio/static/media/twitter_icon.68b62d16a9639df43a732b371ef90a2a.svg",
+    "static/media/github_icon.svg": "/asml_portfolio/static/media/github_icon.a61b960f2ce17e7b773b7e1013673b9f.svg",
+    "static/media/js_icon.svg": "/asml_portfolio/static/media/js_icon.fabe1e9b193a5b86c7467a70ba5d736a.svg",
+    "index.html": "/asml_portfolio/index.html",
+    "static/media/instagram_icon.svg": "/asml_portfolio/static/media/instagram_icon.b6beacd904f86ba6e0cb57f5b4e24eb8.svg",
+    "static/media/linkedin_icon.svg": "/asml_portfolio/static/media/linkedin_icon.6f93e62029885080abdcff85e74f2751.svg",
+    "static/media/facebook_icon.svg": "/asml_portfolio/static/media/facebook_icon.bf9a8309d218ec6f4e2da6a27707d994.svg",
+    "main.bdb02b23.css.map": "/asml_portfolio/static/css/main.bdb02b23.css.map",
+    "main.e2290379.js.map": "/asml_portfolio/static/js/main.e2290379.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bdb02b23.css",
+    "static/js/main.e2290379.js"
+  ]
+}
